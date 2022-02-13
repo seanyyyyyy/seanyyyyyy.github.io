@@ -5,7 +5,8 @@ body {
 }
 
 body {
-    @include serif-font;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    //@include serif-font;
 }
 
 hr {
@@ -154,9 +155,8 @@ header {
     width: 100%;
     min-height: auto;
     //@include background-cover;
-    background-size: auto;
-    background: rgba(0, 0, 0, 0.7) url('../img/header.tiff') center;
-    background-blend-mode: darken;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/header.tiff') center;
+    background-size: cover;
     text-align: center;
     color: white;
     .header-content {
