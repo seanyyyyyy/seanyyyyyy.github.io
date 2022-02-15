@@ -6,7 +6,6 @@ body {
 
 body {
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-    //@include serif-font;
 }
 
 hr {
@@ -76,10 +75,10 @@ aside {
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
-        color: $theme-primary;
-        @include sans-serif-font;
+        color: $theme-dark;
+        font-family: 'Unna';
         font-weight: 700;
-        text-transform: uppercase;
+        font-size: 23px;
         &:hover,
         &:focus {
             color: darken($theme-primary, 10%);
@@ -130,8 +129,8 @@ aside {
             background-color: white;
             border-color: rgba($theme-dark, .5);
             .navbar-header .navbar-brand {
-                color: $theme-primary;
-                font-size: 14px;
+                color: $theme-dark;
+                font-size: 23px;
                 &:hover,
                 &:focus {
                     color: darken($theme-primary, 10%);
@@ -176,7 +175,7 @@ header {
             }
             p {
                 font-weight: 300;
-                color: rgba(white, .7);
+                color: rgba(white, .8);
                 font-size: 16px;
                 margin-bottom: 50px;
             }
