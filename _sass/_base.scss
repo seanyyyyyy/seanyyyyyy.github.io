@@ -76,7 +76,7 @@ aside {
     @include transition-all;
     .navbar-header .navbar-brand {
         color: $theme-dark;
-        font-family: 'Unna';
+        font-family: 'Unna', serif;
         font-weight: 700;
         font-size: 23px;
         &:hover,
@@ -171,13 +171,17 @@ header {
                 margin-bottom: 0;
             }
             hr {
-                margin: 30px auto;
+                margin: 40px auto;
             }
             p {
                 font-weight: 300;
                 color: rgba(white, .8);
-                font-size: 16px;
-                margin-bottom: 50px;
+                font-size: 5vw;
+            }
+            img {
+                margin: 10px auto;
+                display: block;
+                width: 15%;
             }
         }
     }
