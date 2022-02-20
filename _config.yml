@@ -1,9 +1,9 @@
 # Site settings
 title:
-email: "szliaw@gmail.com"
+email: "info@hotspot.contact"
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://seanyyyyyy.github.io" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
